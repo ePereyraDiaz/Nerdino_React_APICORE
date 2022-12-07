@@ -14,7 +14,7 @@ namespace Nerdino.Database
             {
                 var random = new Random();
 
-                var seedWeatherForecasts = Enumerable.Range(0, 5).Select(index => new WeatherForecast
+                var seedWeatherForecasts = Enumerable.Range(0, 10).Select(index => new WeatherForecast
                 {
                     DayOfWeek = DateTime.Today.AddDays(index).DayOfWeek.ToString(),
                     Date = DateTime.Today.AddDays(index),

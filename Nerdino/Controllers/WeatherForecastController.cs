@@ -20,7 +20,7 @@ namespace Nerdino.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-            return _context.WeatherForecasts;
+            return _context.WeatherForecasts.Take(5);
         }
     }
 }
