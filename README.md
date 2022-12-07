@@ -1,1 +1,3 @@
-# Nerdino_React_APICORE
+# Proyecto creado con react y C# API CORE
+
+##Aplicación simple
